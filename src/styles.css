@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: monospace;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.App {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+input,
+button {
+  font: inherit;
+}
+button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.todoCard {
+  font-size: 0.9rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
